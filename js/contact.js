@@ -4,6 +4,8 @@ $(document).ready(function() {
     $('.submit').click(function(event) {
         console.log('Clicked')
 
+        var firstname = $('.fname').val()
+        var lastname = $('.lname').val()
         var email = $('.email').val()
         var subject = $('.subject').val()
         var message = $('.message').val()
