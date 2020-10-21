@@ -98,7 +98,7 @@
                 <div class="mail-icon"><i class="fas fa-envelope"></i></div>
                 <div class="form-box">
                     <h3>Envoie moi un <span class="text-primary">message</span></h3>
-                    <form action="https://formspree.io/devmonteur@gmail.com" method="POST" id="my-form">
+                    <form action="https://formspree.io/f/devmonteur@gmail.com" method="POST" id="my-form">
                         <div class="form-group">
                             <label for="fname">Nom:</label>
                             <input type="text" class="fname" id="fname" placeholder="Met ton Nom">
@@ -109,15 +109,15 @@
                         </div>
                         <div class="form-group">
                             <label for="email">Email:</label>
-                            <input type="text" class="email" id="email" placeholder="Met ton Email">
+                            <input type="text" name="email" class="email" id="email" placeholder="Met ton Email">
                         </div>
                         <div class="form-group">
                             <label for="subject">Sujet:</label>
-                            <input type="text" class="subject" id="subject" placeholder="Met ton Sujet">
+                            <input type="text" name="subject" class="subject" id="subject" placeholder="Met ton Sujet">
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea raws="7" class="message" id="message" placeholder="Met ton Message"></textarea>
+                            <textarea raws="7" name="message" class="message" id="message" placeholder="Met ton Message"></textarea>
                         </div>
                         <input type="submit" value="Envoyer le Message" class="contact-btn">
                     </form>
