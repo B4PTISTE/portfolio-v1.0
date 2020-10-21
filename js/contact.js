@@ -13,6 +13,20 @@ $(document).ready(function() {
 
         statusElm.empty()
 
+        if (firstname.length > 2) {
+            statusElm.append('<div>FirstName is valid</div>')
+        } else {
+            event.preventDefault()
+            statusElm.append('<div>FirstName is not valid</div>')
+        }
+
+        if (lastname.length > 2) {
+            statusElm.append('<div>LastName is valid</div>')
+        } else {
+            event.preventDefault()
+            statusElm.append('<div>LastName is not valid</div>')
+        }
+
         if (email.length > 5 && email.includes('@') && email.includes('.')) {
             statusElm.append('<div>Email is valid</div>')
         } else {
