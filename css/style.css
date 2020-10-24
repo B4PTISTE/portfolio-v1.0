@@ -23,7 +23,7 @@ body {
 }
 
 .text-primary {
-    color: #3693ff;
+    color: #ab00ce;
 }
 
 .bg-light {
@@ -47,7 +47,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 3px solid #3693ff;
+    border-bottom: 3px solid #D400FF;
 }
 
 #navbar ul {
@@ -71,15 +71,15 @@ body {
 }
 
 #navbar li a:hover {
-    background-color: #3693ff;
+    background-color: #D400FF;
 }
 
 
 /* SHOWCASE AREA*/
 
 #showcase {
-    background: url(../img/background.jpg) no-repeat center center/cover;
-    height: 91.7vh;
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    height: 86.6vh;
 }
 
 .showcase-content {
@@ -108,16 +108,16 @@ body {
 }
 
 .showcase-content .btn:hover {
-    background: #3693ff;
+    background: #D400FF;
     color: #fff;
 }
 
 .btn {
-    color: #3693ff;
+    color: #D400FF;
     text-decoration: none;
     display: inline-block;
     padding: 1rem 2rem;
-    border: 1px solid #3693ff;
+    border: 1px solid #D400FF;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -195,7 +195,7 @@ body {
 #services .box i {
     color: #fff;
     padding: 0.5rem;
-    background: #3639ff;
+    background: #D400FF;
     border-radius: 50%;
     margin: 0 0.1rem;
     margin-bottom: 2rem;
@@ -261,7 +261,7 @@ body {
     padding: 1rem 3rem;
     border: 5px;
     border-radius: 1.5rem;
-    background: #3693ff;
+    background: #D400FF;
     color: #fff;
     margin-bottom: 2rem;
     cursor: pointer;
@@ -269,7 +269,7 @@ body {
 }
 
 #contact .contact-btn:hover {
-    background: #0378ff;
+    background: #ff03f2;
 }
 
 #contact .container {
@@ -278,7 +278,7 @@ body {
 
 #contact .mail-icon {
     font-size: 3rem;
-    background: #3693ff;
+    background: #D400FF;
     color: #fff;
     display: inline-block;
     padding: 1.5rem 2rem;
